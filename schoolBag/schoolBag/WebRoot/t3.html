@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<link rel="stylesheet" href="/schoolBag/css/table.css" />
+		<link rel="stylesheet" href="/schoolBag/css/WodGuan.css" />
+		<script type="text/javascript" src="/schoolBag/js/jquery-3.0.0.js" ></script>
+		<script type="text/javascript" src="/schoolBag/js/jquery-ui.js" ></script>
+		<script type="text/javascript" src="/schoolBag/laydate/laydate.js" ></script>
+		<link rel="stylesheet" href="/schoolBag/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="/schoolBag/css/jquery-ui.structure.css" />
+		<script type="text/javascript" src="/schoolBag/js/t3.js" ></script>
+
+	
+		<style>
+			.an{
+				display:block;
+				float:left;
+				border:1px solid #c0c0c0;
+				
+				padding:5px;
+				width:20px;
+				text-align:center;
+				
+			}
+			#anniu{
+				padding-bottom:50px;
+				
+			}
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<div id="context">
+				<div style="margin-left:200px;margin-top:50px;text-align: center;"><h2>后台管理系统</h2></div>
+				<div class="inet">
+					<div style="margin-left:80px">
+					<form action="" method="post" style="float: left"><!--表单-->
+						<span>用户账号:</sapn><input id="userId" type="text" class="text1"/>
+						<span>&nbsp;用户昵称:</sapn><input id="userName" type="text" class="text1"/>
+						<input id="sub" type="button" value="搜索" class="submit"/>
+					</form>
+					
+					</div>
+				</div>
+						<div id="youbian">
+						
+							<div id="youbian-1">
+							<table border="1" cellspacing="0" cellpadding="0" id="table">
+								<tr class="td">
+									<td width="50px" height="40px">编号</td>
+									<td width="150px" height="40px">用户昵称</td>
+									<td width="150px" height="40px">用户账号</td>
+									<td width="150px" height="40px">手机号码</td>
+									<td width="150px" height="40px">所获积分</td>
+									<td width="150px" height="40px">注册时间</td>
+									<td colspan="2" width="200px" height="40px">操作</td>
+									
+								</tr>
+							<tr class="td">
+									<td width="50px" height="40px">1</td>
+									<td width="150px" height="40px">用户昵称</td>
+									<td width="150px" height="40px">用户账号</td>
+									<td width="150px" height="40px">手机号码</td>
+									<td width="150px" height="40px">所获积分</td>
+									<td width="150px" height="40px">注册时间</td>
+									<td width="100px" height="40px"><img src="/schoolBag/img/bianji.png"  width="20px" height="20px"title="编辑"/></td>
+									<td width="100px" height="40px"><img src="/schoolBag/img/shanchu.png"  width="20px" height="20px"title="删除"/></td>
+								</tr>
+							</table>
+			    </div>
+				 <div  id="anniu" style="width:97%;height:30px;display:block;background-color: #F5F5F5;padding-left:3%;">
+                     	   		<a href="#" style="display:block;float:left;border:1px solid #c0c0c0;padding:5px;" id="top">上一页</a>
+                     	   		<a href="#"  style="display:block;float:right;border:1px solid #c0c0c0;padding:5px;" id="dowm">下一页</a>
+                     	   		
+                     	 		<a href="#" Style="display:block;float:right;border:1px solid #c0c0c0;padding:5px;margin-right:10px" id="go">Go</a>
+                     	   		<input type="text" id="yemian" style="display:block;float:right;border:1px solid #c0c0c0;padding:5px;height:18px"/>
+                     	   			
+                    </div>
+			</div>
+			
+			</div>
+			
+	</body>
+</html>

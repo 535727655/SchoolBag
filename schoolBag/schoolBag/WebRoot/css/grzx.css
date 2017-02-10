@@ -1,0 +1,52 @@
+.baoc{
+	width: 80px;
+	height:30px;
+	margin-left:480px;
+	line-height: 40px;
+	text-align: center;
+}
+.baoc2{
+		width: 80px;
+	   height:30px;
+	
+	line-height: 40px;
+	text-align: center;
+	margin-left:70px;
+}
+.nic,.diz,.sjh{
+	width:250px;
+	height:25px;
+}
+
+ .fileInputContainer{
+        height:120px;
+        background:url(upfile.png);
+        position:relative;
+        width: 120px;
+        
+    }
+    .fileInput{
+        height:120px;
+        overflow: hidden;
+        font-size: 300px;
+        position:absolute;
+        right:0;
+        top:0;
+        opacity: 0;
+        filter:alpha(opacity=0);
+        cursor:pointer;
+    }
+.yidong{
+	margin-left: 530px;
+}
+.yidong img{
+	border-radius: 10%;
+}
+.dabiank{
+	margin-left:30px;
+	 background-color:#FFFFFF;
+}
+.color{
+	color:#EC8D50;
+	font-size:20px;
+}

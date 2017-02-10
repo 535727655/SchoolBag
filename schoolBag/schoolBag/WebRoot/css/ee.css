@@ -1,0 +1,53 @@
+.daxue{
+	background: #5CAAE0;
+	width: 130px;
+	height: 30px;
+	text-align: center;
+}
+.gongcheng{
+	width: 130px;
+	height: 30px;
+	padding-left: 120px;
+}
+#toufa{
+	width: 1140px;
+	height: 30px;
+	background: #E3F0F9;
+	margin-left: 30px;
+	color: #000000;
+	font-size: 20px;
+	float: left;
+
+	}
+#toufa-first{
+	float: left;
+		text-align: center;
+}
+.toufa-two{
+	margin-left:250px;
+	float: left;
+		text-align: center;
+}
+.emt{
+	width: 280px;
+	height: 70px;
+	text-align: center;
+	color: red;
+}
+.bccc{
+	width:200px;
+	height:70px;
+	text-align:center;
+	color:#0B4AA2;
+	font-size:18px;
+}
+.bcca{
+	width:200px;
+	height:70px;
+	font-size:18px;
+	color:#0B4AA2;
+}
+#sel{
+	color:red;
+	margin-top:20px;
+}

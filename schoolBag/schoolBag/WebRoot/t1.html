@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="/schoolBag/css/WodGuan.css" />
+		<script type="text/javascript" src="/schoolBag/js/jquery-3.0.0.js" ></script>
+		<script type="text/javascript" src="/schoolBag/js/jquery-ui.js" ></script>
+		<script type="text/javascript" src="/schoolBag/laydate/laydate.js" ></script>
+		<link rel="stylesheet" href="/schoolBag/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="/schoolBag/css/jquery-ui.structure.css" />
+	</head>
+	<script>
+  $( function(){
+    $( ".menu").menu();
+   $("#accordion").accordion({
+   		collapsible:true,
+   		active:false
+   	});
+  });
+  
+	</script>
+	<body>
+		<div id="left"> <!--左边的边框-->
+ 		<div id="accordion">
+ 			<h3 id="renwu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任务管理</h3>
+ 		   		<div>
+ 		   			
+ 		   			<h3>任务类型</h3>
+ 		   			<ul class="wofabu">
+ 		   				<li><div><a href="" id="diaocha">调查收集</a></div></li>
+ 		   				<li><div><a href="" id="xianxia">线下执行</a></div></li>
+ 		   				<li><div><a href="" id="xianshang">线上传播</a></div></li>
+ 		   				<li><div><a href="" id="qita">其他</a></div></li>
+ 		   			</ul>
+ 		   	</div> 	
+ 		   	<h3 id="zhanghao">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号管理</h3>
+ 		   	<div>
+ 		   		
+ 		   	</div>
+		</div>
+		</div>
+		
+		<iframe id="fram" src="t3.html" style="position: fixed;width:100%;height:100%"></iframe>
+		
+	</body>
+	
+	<script>
+		$(function(){
+			$("#zhanghao").click(function(){
+				$("#fram")[0].src="t3.html";
+			});
+			$("#renwu").click(function(){
+				$("#fram")[0].src="t2.html";
+			});
+		})
+	</script>
+</html>

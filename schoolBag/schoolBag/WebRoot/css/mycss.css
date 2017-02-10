@@ -1,0 +1,111 @@
+body{
+				margin: 0 auto;
+				padding: 0;
+				background: #F6F5FA;		
+			}
+			.content{
+				width: 905px;
+			}
+			a{
+				text-decoration: none;
+			}
+			
+			#tit-top{
+				font-size: 7;
+				font-weight: bold;
+				border-left: 12px solid #324f96;
+				background: #e0eaf4;
+				color: #4868a9;
+				height: 3em;
+				line-height: 3em;
+				padding: 0 12px;
+				overflow: hidden; 
+				text-align: left;
+			}			
+			#tit-loc{
+				font-size:15px;
+				color:#666666;
+				padding-left:10px;
+				height: 2.5em;
+				line-height: 2.5em;
+				/*padding: 0 10px*/;
+				overflow: hidden;
+				/*margin: 0 auto;*/
+				text-align: left
+			}
+			.subject {
+				float:left;
+				width: 905px;
+				min-height: 434px;
+				height:434px;
+				border: 1px solid #e5e5e5;
+				background: white;
+				margin-top: 5px;
+			}
+			.subject-tit{
+				width: 703px;
+				height: 40px;
+				float: left;
+				background: #F9F9F9;
+				}
+			.subject-left{
+				float: left;
+				width: 703px;
+				height: 392px;
+			}
+			.subject-tit h3{
+				margin: 10px ;
+				font-family:"ËÎÌו" ;
+			}
+			.subject-right{
+				float: right;
+				width: 200px;
+				height: 433px;
+				border: 1px solid #E5E5E5;
+			}
+			#rig-tit{
+				margin-left: 60px;
+				font-size: 7;
+				font-weight: bold;
+			}
+			li{
+				font-size: 14px;
+				font-weight: bold;
+				line-height: 40px;
+				list-style: none;	
+			}
+			.subject-left span{
+				margin-left: 30px;
+				font-size: 15px;
+				color: #666666;
+			}
+			#con-thake{
+				font-size: 12px;
+				margin-left:30px ;
+				color: #666666;
+			}
+			#con-text{
+				margin-left: 30px;
+				width: 575px;
+				height: 155px;
+			}
+			#con-file{
+				padding:0 30px;
+				
+			}
+			#con-rel{
+				margin-left: 30px;
+				color: #666666;
+			}
+			#con-rel span{
+				font-size: -1;
+			}
+			
+			#con-sub{
+				margin: 10px 30px;
+				width: 125px;
+				height: 30px;
+				background: #3A902A;
+				color: #FFFFFF;
+				border: 1px solid #3A902A;
+			}

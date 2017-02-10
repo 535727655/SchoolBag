@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html" charset="UTF-8">
+<title>feedback</title>
+<link rel="styleSheet" type="text/css" href="/schoolBag/css/mycss.css" />
+<link rel="styleSheet" type="text/css" href="/schoolBag/css/feedback.css" />
+</head>
+	<body style="align-content: center;">
+		<div id="head">
+				<span id="left1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/c.png" ><a href="">大校帮首页</a></span>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span id="left1"><a href="/schoolBag/login.html" id="loginmsg"></a></span><span class="shu">|</span>
+				<span id="right1"><a href="/schoolBag/regist.html"></a></span><span class="shu">|</span>
+				<span id="left1"><a href="/schoolBag/Feedback.html">投诉建议</a></span><span class="shu">|</span>
+				<span id="left1"><a href="#">企业联络我们</a></span><span class="shu">|</span>
+				<span id="left1">关注校帮</span>
+		</div>
+		<div class="content" style="margin: 0px auto;">
+			<div class="tit">
+				<h1 id="tit-top"><a href="#">校帮反馈</a></h1>
+				<span id="tit-loc"> 当前位置:<a href="/schoolBag/homepage.html" id="shou">首页</a> > 反馈</span>
+			</div>
+			<div class="subject" >
+				<div class="subject-tit"><h3>意见反馈</h3></div>
+				<div class="subject-right">
+					<p id="rig-tit">任务攻略</p>
+					<ul id="rig-str">
+						<li><a href="index.html">任务概况</a></li>
+						<li><a href="execute.html">任务领取&任务执行</a></li>
+						<li><a href="submit.html">任务提交&任务审核</a></li>
+						<li><a href="reward.html">任务报酬&现金提现</a></li>
+					</ul>
+				</div>
+				<div class="subject-left">
+					<p></p>
+					<span>亲爱的校袋帮用户</span>
+					<p id="con-thake">请在下面填写您遇到的问题或意见建议，并留下您的联系方式，感谢您对校袋帮的支持!</p>
+					<form method="post" action="Feedbackweb" enctype="multipart/form-data">
+						<textarea id="con-text" name="description" maxlength="499"></textarea>
+						<p><input type="file" id="con-file" name="filename"></p>
+						<div class="mail-cont">
+							<span class="font14 contip">联系方式：
+							<input class="contact" name="email" id="email" value="电话/邮箱/QQ" />(*必填项)</span>							
+						</div>
+					<input type="submit" value="提交反馈" id="con-sub">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

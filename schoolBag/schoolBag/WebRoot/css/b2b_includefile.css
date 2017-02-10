@@ -1,0 +1,27 @@
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff3300; POSITION: relative; TEXT-DECORATION: none
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #fcfcfc; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #000000; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #fcfcfc; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #e1e1e1; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; SCROLLBAR-DARKSHADOW-COLOR: #f2f2f2; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.input_sr {
+	BORDER-RIGHT: #d9c566 1px solid; BORDER-TOP: #d9c566 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #d9c566 1px solid; COLOR: #000000; BORDER-BOTTOM: #d9c566 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f6f0d8; TEXT-DECORATION: none
+}
+.input_bot {
+	CLEAR: both; BORDER-RIGHT: #cccccc 1px ridge; PADDING-RIGHT: 1px; BORDER-TOP: #cccccc 1px; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; MARGIN: 2px; BORDER-LEFT: #cccccc 1px; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #cccccc 1px ridge; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f7f7f7
+}
+.linecss {
+	BORDER-RIGHT: dashed; BORDER-TOP: dashed; BORDER-LEFT: dashed; COLOR: #cccccc; BORDER-BOTTOM: dashed
+}

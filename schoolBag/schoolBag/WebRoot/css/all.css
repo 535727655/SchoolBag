@@ -1,0 +1,250 @@
+	*{
+			text-decoration:none;
+			
+		}
+		body{
+			background-color: #f1f1f1;
+			margin: 0;
+			padding: 0;		
+		}	
+		#head{
+			height: 30px;
+			width: 100%;
+		}
+		#left1{
+			font-size: 12px;
+			color: #6f6f6f;
+			font-family: "ËÎÌå";
+			line-height: 15px;
+		}
+		#left1 a:link{
+			color: #6F6F6F;
+			text-decoration: none;
+			
+		}
+		#left1 a:visited{
+			color: #6f6f6f;
+			text-decoration: underline;
+			
+		}
+		#left1 a:hover{
+			color: red;
+			text-decoration: underline;
+			
+		}
+		#right1 a:link{
+			color: #c94c49;
+			text-decoration: underline;	
+		}
+		#right1 a:visited{
+			color: #c94c49;
+			text-decoration: underline;
+		}
+		.shu{
+			color: #dddddd;
+		}
+		#right1{
+			font-size: 10px;
+			color: #6f6f6f;
+			font-family: "ËÎÌå";
+			line-height: 25px;
+		}
+		#neck{
+			height:55px;
+			background-color: white;
+			width: 100%;
+			padding: 30px 30px 0px 30px;	
+		}
+		.kuai{
+			vertical-align: middle;
+			width:90px ;
+			height: 40px;
+			background-color: #059cd4;
+			font-size: 20px;
+			padding: 10px;	
+		}
+		.kuai2{
+			vertical-align: middle;
+			width:90px ;
+			height: 40px;
+			color:#808080 ;
+			font-family: "¿¬Ìå";
+			font-size: 21px;
+		}
+		.kuai3{
+			vertical-align: middle;
+			width:90px ;
+			height: 40px;
+			color:#059cd4 ;
+			font-family: "ºÚÌå";
+			font-size: 40px;	
+		}		
+		#context{
+			width: 1210px;
+			background-color:#f1f1f1;
+			margin: 10px auto 40px;	
+		}
+		#zuobian{
+			width: 185px;
+			float: left;
+			background-color: white;	
+			-webkit-box-shadow: 0 0 10px gray;
+		}
+		#zuobian-1{
+			padding: 10px;
+		}
+		#touxiang{
+			border: 2px solid  #059cd4;
+        	width:55px;
+        	height:55px;
+       		border-radius:55px;
+       		background-image: url(img/a.png);
+		}
+		.kuai4{
+			text-align: center;
+			width: 180px;
+			height: 50px;
+			
+			font-family: "Î¢ÈíÑÅºÚ";
+			color: gray;
+			font-size: 15px;	
+		}
+		.kuai41{
+			text-align: center;
+			width: 180px;
+			height: 40px;
+			background-color: #059cd4;
+			font-family: "Î¢ÈíÑÅºÚ";
+			color: white;
+		}
+		.kuai412{			
+			width: 180px;
+			height: 20px;	
+		}	
+		#youbian{
+			background-color: white;
+			width: 1010px;
+			height: 100%;		
+			float: right;
+			display: block;				
+		}
+		#youbian-1{
+			padding: 30px;				
+		}
+		#youbian-1-1{
+			vertical-align: middle;
+			height: 30px;
+			background-color: #059cd4;
+			line-height: 30px;
+			padding-left: 15px;				
+		}
+		.kuai5{
+			font-family: "Î¢ÈíÑÅºÚ";
+			font-size: 15px;
+			color: white;
+			float:left;
+			padding-left:20px;
+			list-style-type:none;
+		}
+		.youbian-1-2{
+			border: 1px solid darkgray;
+			border-bottom-color:white ;
+			height: 260px;
+			margin-top:40px ;		
+		}
+		.youbian-1-2-1{
+			width: 45%;
+			height: 100%;
+			float: left;
+		}
+		.youbian-1-2-2{
+			height: 100%;
+			width:55%;
+			float: right;
+		}
+		.touxiang1{
+			float: right;	
+			opacity: 0.4;
+			transform: rotate(30deg);
+		}
+		.wenzi1{
+			color:black;
+			font-size: 40px;
+			margin: 0px 0px 0px 30px;
+		}
+		.duan1{
+			color: #6F6F6F;
+			font-size: 15px;
+			font-family: "Î¢ÈíÑÅºÚ";
+			margin-top: 10px;
+		}
+		.duan2{
+			color: #6F6F6F;
+			margin-top: 10px;
+			font-family: "Î¢ÈíÑÅºÚ";
+		}
+		.duan3{
+			color: #6F6F6F;
+			margin-top: 10px;
+			font-family: "Î¢ÈíÑÅºÚ";
+		}
+		.duan4{
+			color: #6F6F6F;
+			font-size: 15px;
+			font-family: "Î¢ÈíÑÅºÚ";
+			margin-top: 10px;
+		}
+		.duan5{
+			width: 60px;
+			height: 10px;
+			margin-top: 10px;
+			padding: 10px;
+			background-color: #f03746;
+			color: white;
+			font-size: 10px;
+			text-align: center;		
+		}	
+		#end{
+			border: 1px solid darkgray;
+			border-bottom-color:#f1f1f1 ;
+			border-left-color:#f1f1f1 ;
+			border-right-color:#f1f1f1 ;
+			width: 1215px;	
+			margin: 0 auto;				
+		}
+		.end-1{
+			padding: 30px 0;
+		}
+		.end-1-1{
+			text-align: center;
+		}
+		.end-1-2{
+			margin-top: 10px;
+			font-size: 5px;
+			text-align: center;
+			font-family: "Î¢ÈíÑÅºÚ";
+		}
+		.end-1-3{
+			margin-top: 10px;
+			font-size: 5px;
+			text-align: center;
+			font-family: "Î¢ÈíÑÅºÚ";
+		}
+		#ing{
+			width:80px;
+			height:80px;
+		}
+		.mou{
+			color:#070707;
+			font-size:30px;
+			
+		}
+		.mou:hover{
+		   color:red;
+		}
+		.duan5 a{
+			color:#FDFBFB;
+		}
+		.gray{
+			color:gray;
+		}

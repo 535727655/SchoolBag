@@ -1,0 +1,1373 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<style>	
+		
+		body{
+			background-color: #f1f1f1;
+			margin: 0;
+			padding: 0;
+		}
+		
+		#head{
+			height: 30px;
+			width: 100%;
+			
+		}
+		#left1{
+			font-size: 12px;
+			color: #6f6f6f;
+			font-family: "宋体";
+			line-height: 15px;
+		}
+		#left1 a:link{
+			color: #6F6F6F;
+			text-decoration: none;
+			
+		}
+		#left1 a:visited{
+			color: #6f6f6f;
+			text-decoration: underline;
+			
+		}
+		#left1 a:hover{
+			color: red;
+			text-decoration: underline;
+			
+		}
+		#right1 a:link{
+			color: #c94c49;
+			text-decoration: underline;
+			
+		}
+		#right1 a:visited{
+			color: #c94c49;
+			text-decoration: underline;
+			
+		}
+		.shu{
+			color: #dddddd;
+		}
+		#right1{
+			
+			
+			font-size: 10px;
+			color: #6f6f6f;
+			font-family: "宋体";
+			line-height: 25px;
+		}
+		
+		
+		
+		
+		#neck{
+			height:55px;
+			background-color: white;
+			width: 100%;
+			padding: 30px 30px 0px 30px;
+			
+		}
+		.kuai{
+			vertical-align: middle;
+			width:90px ;
+			height: 40px;
+			background-color: #059cd4;
+			font-size: 20px;
+			padding: 10px;
+			text-decoration:none;
+			
+		}
+		.kuai2{
+			vertical-align: middle;
+			width:90px ;
+			height: 40px;
+			color:#808080 ;
+			font-family: "楷体";
+			font-size: 21px;
+		}
+		.kuai3{
+			vertical-align: middle;
+			width:90px ;
+			height: 40px;
+			color:#059cd4 ;
+			font-family: "黑体";
+			font-size: 40px;
+			
+		}
+		
+		.context-bg{
+			width: 100%;
+			height: 501px;
+			text-align: center;
+		}
+		
+		.context-bg-1{
+			background: url(img1/bg1.jpeg) no-repeat 0% 0% /100% 100%;
+			height: 501px;
+		}
+		.context-bg-2{
+			background: url(img1/bg2.jpeg) no-repeat 0% 0% /100% 100%;
+			height: 501px;
+		}
+		.context-bg{
+			position: absolute;
+			
+		}
+		.context{
+			width: 100%;
+			height:501px;
+			
+			
+		}
+		.context-1{
+			margin-left: 67px;
+			margin-right: 67px;
+			padding-top: 10px;
+		}
+		.context-1-1{
+			    width: 230px;
+    			height: 474px;
+   				background: #fff;
+    			position: relative;
+    			z-index: 2;
+    			float: left;
+		}
+		.context-1-2{
+				
+			    width: 732px;
+			    height: 474px;
+    			float: left;
+    			margin: 0 11px;
+   				
+   				position: relative;
+   				z-index: 1;
+		}
+		.context-1-3{
+			float: left;
+			    width: 230px;
+   				 height: 474px;
+    			background: #fff;
+    			position: relative;
+    			z-index: 1;
+		}
+		.context-1-1-1{
+			    height: 90px;
+    			border-bottom: 1px dashed #999;
+    			padding-top: 8px;
+    			margin: 0 15px 24px 15px;
+		}
+		.context-1-1-1-1{
+			    width: 65px;
+    			height: 65px;
+    			float: left;
+    			position: relative;
+		}
+		.context-1-1-1-2{
+			width: 124px;
+			height: 65px;
+			padding-left: 76px;
+		}
+		.context-1-1-1-2-1{
+			    height: 34px;
+    			overflow: hidden;
+    			line-height: 17px;
+		}
+		.context-1-1-1-2-1-1{
+			    width: 34px;
+    			height: 34px;
+    			float: left;
+    			margin-right: 6px;
+		}
+		.context-1-1-1-2-1-2{
+			    width: 80px;
+    			height: 34px;
+    			float: left;
+		}
+		.context-1-1-2{
+			 padding: 18px 0 0 0;
+			 margin:0 15px ;
+			
+			 width: 200px;
+			 height: 60px;
+		}
+		.context-1-1-2-1{
+			    float: left;
+    			width: 20px;
+    			height: 20px;
+    			margin-right: -30px;
+    			background: url(img1/jifen.png);
+    			
+    			
+		}
+		.context-1-1-2-2{
+			padding:0 0 0 31px;
+		}
+		.context-1-1-2-2 a:link {
+			color: black;
+			text-decoration: none;
+		}
+		.context-1-1-2-2 a:hover{
+			color: blue;
+		}
+		.context-1-1-3{
+			margin: 10px 0 0 0 ;
+			width: 230px;
+			height: 70px;
+			padding: 0 0 0 0 ;
+		}
+		.context-1-1-3-1{
+			width: 230px;
+			height: 26px;
+			
+		}
+		.context-1-1-3-1 span{
+			 width: 116px;
+   			 height: 26px;
+   			 float: left;
+    		font-size: 14px;
+   			 text-align: center;
+    		line-height: 26px;
+    		background: url(img1/mokuai.png);
+		}
+		.context-1-1-3-2{
+			text-align: center;
+    		
+    		
+		}
+		
+		
+		
+		
+		.context-1-1-4{
+			margin: 10px 0 0 0 ;
+			width: 230px;
+			height: 180px;
+			padding: 0 0 0 0 ;
+		}
+		.context-1-1-4-1{
+			width: 230px;
+			height: 26px;
+			
+		}
+		.context-1-1-4-1 span{
+			 width: 116px;
+   			 height: 26px;
+   			 float: left;
+    		font-size: 14px;
+   			 text-align: center;
+    		line-height: 26px;
+    		background: url(img1/mokuai.png);
+		}
+		.context-1-1-4-2{
+			padding-left: 10px;
+		}
+		.t1{
+			width: 33px;
+			height: 33px;
+			background: url(img1/suanjiang.png) no-repeat;
+			background-position: 0 -33px;
+		}
+		.t1-1{
+			font-size: 10px;
+			color: #5C5C5C;
+			font-family: "微软雅黑";
+		}
+		.t2{
+			width: 33px;
+			height: 33px;
+			background: url(img1/suanjiang.png) no-repeat;
+		}
+		.t2-2{
+			font-size: 10px;
+			color: #5C5C5C;
+			font-family: "微软雅黑";
+		}
+		.t3{
+			width: 33px;
+			height: 33px;
+			background: url(img1/suanjiang.png) no-repeat;
+			background-position: 0 -132px;
+		}
+		.t3-3{
+			font-size: 10px;
+			color: #5C5C5C;
+			font-family: "微软雅黑";
+		}
+		.t4{
+			width: 33px;
+			height: 33px;
+			background: url(img1/suanjiang.png) no-repeat;
+			background-position: 0 -165px;
+		}
+		.t4-4{
+			font-size: 10px;
+			color: #5C5C5C;
+			font-family: "微软雅黑";
+		}
+		.t5{
+			width: 33px;
+			height: 33px;
+			background: url(img1/suanjiang.png) no-repeat;
+			background-position: 0 -66px;
+		}
+		.t5-5{
+			font-size: 10px;
+			color: #5C5C5C;
+			font-family: "微软雅黑";
+		}
+		
+		
+		
+		<!-- 第二部分旋转开始-->
+		
+		.nav {
+    margin-top: 50px;
+    z-index: 9999;
+    position: absolute;
+    
+}
+
+.arrow {
+    width: 20px;
+    height: 100px;
+    background: #0066cc;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 100px;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 5px;
+
+    -moz-opacity: 0.70;
+    -khtml-opacity: 0.70;
+    opacity: 0.70;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity = 70 );
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity = 70);
+    filter: alpha(opacity = 70);
+}
+
+.arrow:hover {
+    background: #cccccc;
+}
+
+.right {
+    margin-left: 650px;
+    position: relative;
+    top:150px
+}
+
+.left {
+    position: relative;
+    top:150px
+}
+
+/* Slider Styles */
+.container {
+
+}
+
+#cubeCarousel {
+    -webkit-perspective: 730;
+    -moz-perspective: 730;
+    -o-perspective: 730;
+    perspective: 730px;
+    margin: 0px 0px 0px 85px;
+    border-style: dotted;
+    border-width: 1px;
+    position: absolute;
+    top: 0px;
+}
+
+#cubeCarousel #cubeSpinner {
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+}
+
+#cubeCarousel .face {
+    position: absolute;
+    padding: 0px;
+}
+		
+		
+		
+		
+		
+		
+		
+		.context-1-3-1{
+				    width: 230px;
+    				height: 116px;
+   				 	padding: 12px 0;
+    				
+		}
+		.xuahuaxian{
+			    width: 200px;
+    			height: 1px;
+    			margin: auto;
+    			overflow: hidden;
+    			
+    			background: #e6e6e6;
+		}
+		.context-1-3-2{
+				    width: 230px;
+    				height: 116px;
+   				 	padding: 12px 0;
+   				 	
+    				
+		}
+		.context-1-3-3{
+				    width: 230px;
+    				height: 116px;
+   				 	padding: 12px 0;
+    				
+		}
+		
+		
+		.context-1-3-3 a:link {
+			color: #2a6496;
+			text-decoration: none;
+		}
+		.context-1-3-3 a:hover{
+			color: blue;
+			text-decoration: none;
+			
+		}
+		.context-1-3-1-1{
+			    display: block;
+    			width: 100%;
+    			height: 100%;
+   				position: relative;
+		}
+		.context-1-3-1-2{
+			    width: 140px;
+    			top: 20px;
+    			font-size: 20px;
+    			color: #262626;
+    			line-height: 20px;
+    			font-weight: 400;
+    			position: absolute;
+    			left: 22px;
+    			font-family: "微软雅黑";
+    				
+		}
+		.context-1-3-1-3{
+			    width: 100px;
+    			font-size: 12px;
+    			color: #737373;
+    			height: 36px;
+    			line-height: 18px;
+    			overflow: hidden;
+    			font-weight: 400;
+    			position: absolute;
+    			left: 22px;
+    			top:70px;
+    			font-family: "微软雅黑";
+		}
+		
+		
+		.context-1-3-2-1{
+			    display: block;
+    			width: 100%;
+    			height: 100%;
+   				position: relative;
+		}
+		.context-1-3-2-2{
+			    width: 140px;
+    			top: 20px;
+    			font-size: 20px;
+    			color: #262626;
+    			line-height: 20px;
+    			font-weight: 400;
+    			position: absolute;
+    			left: 22px;
+    			font-family: "微软雅黑";
+    				
+		}
+		.context-1-3-2-3{
+			    width: 100px;
+    			font-size: 12px;
+    			color: #737373;
+    			height: 36px;
+    			line-height: 18px;
+    			overflow: hidden;
+    			font-weight: 400;
+    			position: absolute;
+    			left: 22px;
+    			top:70px;
+    			font-family: "微软雅黑";
+		}
+		
+		
+		.context-1-3-3-1{
+			    display: block;
+    			width: 100%;
+    			height: 100%;
+   				position: relative;
+		}
+		.context-1-3-3-2{
+			    width: 140px;
+    			top: 20px;
+    			font-size: 20px;
+    			color: #262626;
+    			line-height: 20px;
+    			font-weight: 400;
+    			position: absolute;
+    			left: 22px;
+    			font-family: "微软雅黑";
+    				
+		}
+		.context-1-3-3-3{
+			    width: 100px;
+    			font-size: 12px;
+    			color: #737373;
+    			height: 36px;
+    			line-height: 18px;
+    			overflow: hidden;
+    			font-weight: 400;
+    			position: absolute;
+    			left: 22px;
+    			top:70px;
+    			font-family: "微软雅黑";
+		}
+		
+		<!--尾部-->
+		.afterbody{
+			    padding-top: 10px;
+    			padding-bottom: 10px;
+    			background: #f5f5f5;
+			
+			
+		}
+		.afterbody-1{
+			margin: 0 67px;
+			width: 1215px;
+			
+		}
+		.afterbody-1-1{
+			height: 154px;
+			margin-top: 20px;
+			background: #FFFFFF;
+		}
+		.afterbody-1-1-1{
+			float: left;
+		    width: 191px;
+		    height: 162px;
+		    background: url(img1/ab1.png);
+		    margin-right: -100%;
+		    position: relative;
+		    left: -32px;
+		}
+		.afterbody-1-1-2{
+			padding-left:64px ;
+		}
+		.afterbody-1-1-2 ul{
+			    overflow: hidden;
+   				 background: #fff;
+    			height: 100%;
+    			padding-left: 126px;
+		}
+		.afterbody-1-1-2 li{
+			    width: 137px;
+			    height: 137px;
+			    float: left;
+			    margin: 10px 68px 10px 0;
+			    
+			    position: relative;
+			    cursor: pointer;
+		}
+		.afterbody-1-1-2-1{
+			        width: 100%;
+				    height: 100%;
+				    overflow: hidden;
+				    text-align: center;
+				    color: #1a1a1a;
+		}
+		.afterbody-1-1-2-1 img{
+			        height: 93px;
+    			padding: 9px 0;
+    			overflow: hidden;
+    			
+		}
+		.afterbody-1-2{
+			margin-top: 25px;
+		}
+		.afterbody-1-3{
+			margin-top: 25px;
+		}
+		.afterbody-1-3-1{
+			    width: 100%;
+			    height: 30px;
+			    line-height: 30px;
+			    text-align: center;
+			    position: relative;
+		}
+		.afterbody-1-3-1 em{
+					font-family: "微软雅黑";
+			        display: inline-block;
+				    font-size: 26px;
+				    color: #434343;
+				    background: #f5f5f5;
+				    padding: 0 14px;
+				    position: relative;
+				    z-index: 1;
+		}
+		.afterbody-1-3-1 span{
+			    width: 100%;
+			    height: 0;
+			    line-height: 0;
+			    font-size: 0;
+			    border-bottom: 2px dotted #d2d2d2;
+			    overflow: hidden;
+			    position: absolute;
+			    top: 14px;
+			    left: 0;
+		}
+		
+		
+		
+		.afterbody-1-4{
+			padding-top: 11px;
+			height: 352px;
+		}
+		.afterbody-1-4 ul{
+			    float: left;
+    			margin-right: 32px;
+    			padding: 0 0 0 6px;
+    			margin-right: -32px;
+    			
+		}
+		.afterbody-1-4 li{
+			        float: left;
+				    width: 384px;
+				    height: 152px;
+				    background: url(img1/beijing.png) 0 0 no-repeat;
+				    margin: 0 20px 24px 0;
+				    padding-left: 6px;
+				    list-style: none;
+		}
+		.afterbody-1-4-1{
+			    background-position: 0 0;
+		}
+		
+		.afterbody-1-4-1-1{
+				float: left;
+			        width: 160px;
+			    height: 100%;
+			    text-align: center;
+			    background: #feebcf;
+		}
+		.afterbody-1-4-1-2{
+			    width: 224px;
+			    height: 100%;
+			    color: #fff;
+			    background: #fba728;
+			    float: right;
+		}
+		.afterbody-1-4-1-1-1{
+			    display: block;
+			    width: 140px;
+			    height: 140px;
+			    margin: 6px auto 0;
+			    overflow: hidden;
+		}
+		
+		.afterbody-1-4-1-2-1{
+			font-family: "微软雅黑";
+			       margin-top: 8px;
+			    padding: 0 10px;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 14px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 24px;
+		}
+		.afterbody-1-4-1-2-2{
+				font-family: "微软雅黑";
+			    height: 33px;
+			    line-height: 33px;
+			    padding: 0 10px;
+			    margin-bottom: 6px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 11px;
+		}
+		
+		
+		.afterbody-1-4-2{
+			    background-position: 0 160px;
+		}
+		
+		.afterbody-1-4-2-1{
+			float: left;
+			        width: 160px;
+			    height: 100%;
+			    text-align: center;
+			    background: #fddac3;
+		}
+		.afterbody-1-4-2-2{
+			    width: 224px;
+			    height: 100%;
+			    color: #fff;
+			    background: #fd6d10;
+			        float: right;
+		}
+		.afterbody-1-4-2-1-1{
+			    display: block;
+			    width: 140px;
+			    height: 140px;
+			    margin: 6px auto 0;
+			    overflow: hidden;
+		}
+		
+		.afterbody-1-4-2-2-1{
+			font-family: "微软雅黑";
+			       margin-top: 8px;
+			    padding: 0 10px;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 14px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 24px;
+		}
+		.afterbody-1-4-2-2-2{
+				font-family: "微软雅黑";
+			    height: 33px;
+			    line-height: 33px;
+			    padding: 0 10px;
+			    margin-bottom: 6px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 11px;
+		}
+		
+		
+		.afterbody-1-4-3{
+			    background-position: 0 -320px;
+		}
+		
+		.afterbody-1-4-3-1{
+				float: left;
+			    width: 160px;
+			    height: 100%;
+			    text-align: center;
+			    background: #fdcacf;
+		}
+		.afterbody-1-4-3-2{
+			    width: 224px;
+			    height: 100%;
+			    color: #fff;
+			    background: #f03746;
+			        float: right;
+		}
+		.afterbody-1-4-3-1-1{
+			    display: block;
+			    width: 140px;
+			    height: 140px;
+			    margin: 6px auto 0;
+			    overflow: hidden;
+		}
+		
+		.afterbody-1-4-3-2-1{
+				font-family: "微软雅黑";
+			    margin-top: 8px;
+			    padding: 0 10px;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 14px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 24px;
+		}
+		.afterbody-1-4-3-2-2{
+				font-family: "微软雅黑";
+			    height: 33px;
+			    line-height: 33px;
+			    padding: 0 10px;
+			    margin-bottom: 6px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 11px;
+		}
+		
+		.afterbody-1-4-4{
+			    background-position: 0 -480px;
+		}
+		
+		.afterbody-1-4-4-1{
+				float: left;
+			    width: 160px;
+			    height: 100%;
+			    text-align: center;
+			    background: #f397a0;
+		}
+		.afterbody-1-4-4-2{
+			    width: 224px;
+			    height: 100%;
+			    color: #fff;
+			    background: #c91523;
+			        float: right;
+		}
+		.afterbody-1-4-4-1-1{
+			    display: block;
+			    width: 140px;
+			    height: 140px;
+			    margin: 6px auto 0;
+			    overflow: hidden;
+		}
+		
+		.afterbody-1-4-4-2-1{
+				font-family: "微软雅黑";
+			    margin-top: 8px;
+			    padding: 0 10px;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 14px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 24px;
+		}
+		.afterbody-1-4-4-2-2{
+				font-family: "微软雅黑";
+			    height: 33px;
+			    line-height: 33px;
+			    padding: 0 10px;
+			    margin-bottom: 6px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 11px;
+		}
+		
+		
+		.afterbody-1-4-5{
+			    background-position: 0 0px;
+		}
+		
+		.afterbody-1-4-5-1{
+				float: left;
+			    width: 160px;
+			    height: 100%;
+			    text-align: center;
+			    background: #feebcf;
+		}
+		.afterbody-1-4-5-2{
+			    width: 224px;
+			    height: 100%;
+			    color: #fff;
+			    background: #fba728;
+			        float: right;
+		}
+		.afterbody-1-4-5-1-1{
+			    display: block;
+			    width: 140px;
+			    height: 140px;
+			    margin: 6px auto 0;
+			    overflow: hidden;
+		}
+		
+		.afterbody-1-4-5-2-1{
+				font-family: "微软雅黑";
+			    margin-top: 8px;
+			    padding: 0 10px;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 14px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 24px;
+		}
+		.afterbody-1-4-5-2-2{
+				font-family: "微软雅黑";
+			    height: 33px;
+			    line-height: 33px;
+			    padding: 0 10px;
+			    margin-bottom: 6px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 11px;
+		}
+		
+		
+		.afterbody-1-4-6{
+			    background-position: 0 -160px;
+		}
+		
+		.afterbody-1-4-6-1{
+				float: left;
+			    width: 160px;
+			    height: 100%;
+			    text-align: center;
+			    background: #fddac3;
+		}
+		.afterbody-1-4-6-2{
+			    width: 224px;
+			    height: 100%;
+			    color: #fff;
+			    background: #fd6d10;
+			        float: right;
+		}
+		.afterbody-1-4-6-1-1{
+			    display: block;
+			    width: 140px;
+			    height: 140px;
+			    margin: 6px auto 0;
+			    overflow: hidden;
+		}
+		
+		.afterbody-1-4-6-2-1{
+				font-family: "微软雅黑";
+			    margin-top: 8px;
+			    padding: 0 10px;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 14px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 24px;
+		}
+		.afterbody-1-4-6-2-2{
+				font-family: "微软雅黑";
+			    height: 33px;
+			    line-height: 33px;
+			    padding: 0 10px;
+			    margin-bottom: 6px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    font-size: 11px;
+		}
+		
+		
+		
+		#end{
+			border: 1px solid #A9A9A9;
+			border-bottom-color:#f1f1f1 ;
+			border-left-color:#f1f1f1 ;
+			border-right-color:#f1f1f1 ;
+			width: 1215px;
+			
+			margin: 50px auto;
+			
+			
+		}
+		.end-1{
+			padding: 30px 0;
+		}
+		.end-1-1{
+			text-align: center;
+		}
+		.end-1-2{
+			margin-top: 10px;
+			font-size: 5px;
+			text-align: center;
+			font-family: "微软雅黑";
+		}
+		.end-1-3{
+			margin-top: 10px;
+			font-size: 5px;
+			text-align: center;
+			font-family: "微软雅黑";
+		}
+		
+	
+	</style>
+	</head>
+	<body>
+		
+			<div id="head">
+				<span id="left1">&nbsp;&nbsp;&nbsp;<img src="img1/c.png" ><a href="/schoolBag/homepage.html">校袋帮首页</a></span>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span id="left1"><a href="/schoolBag/login.html" id="loginmsg">你好，请登录</a></span><span class="shu">|</span>
+			
+				
+				<span id="right1"><a href="/schoolBag/regist.html">免费注册</a></span><span class="shu">|</span>
+				<span id="left1"><a href="/schoolBag/Feedback.html">投诉建议</a></span><span class="shu">|</span>
+				<span id="left1"><a href="#">企业联络我们</a></span><span class="shu">|</span>
+				<span id="left1">关注校帮</span>
+			</div>
+			<div id="neck">
+				<span class="kuai3"><img src="img1/fff.png"><b>校袋帮</b></span>
+				<span class="kuai2">大学生轻任务平台</span>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
+				<a href="/schoolBag/homepage.html" class="kuai">首页</a>
+				<a href="/schoolBag/center.jsp" class="kuai">任务中心</a>
+				<a href="/schoolBag/MyTask.html" class="kuai">我的任务</a>
+				<a href="/schoolBag/H_jsp/index.html" class="kuai">二手交易</a>
+			</div>
+			
+			<div class="context-bg">
+				<div class="context-bg-1"></div>
+				<div class="context-bg-2"></div>
+			</div>
+			
+			<div class="context">
+				<div class="context-1">
+					<div class="context-1-1">
+						<div class="context-1-1-1">
+							<div class="context-1-1-1-1">
+								<img id="touxiang" src="img1/c1.png">
+							</div>
+							<div class="context-1-1-1-2">
+								<h3 style="font-family: '微软雅黑';margin: 0;color: #808080;padding-bottom: 5px;"> <a id="userId"></a></h3>
+								<div class="context-1-1-1-2-1">
+									<div class="context-1-1-1-2-1-2">
+										<p style="color: #808080;font-size: 5px;font-family: '微软雅黑';margin: 0;">我的消息:<a id="myImfoSize" style="text-decoration:none;color:red" href="/schoolBag/Imformation.html"> </a></p>
+										<p style="color: #808080;font-size: 5px;font-family: '微软雅黑';margin: 0;"><a href="/schoolBag/UserCenter.html">编辑资料</a></p>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+						<ul class="context-1-1-2">
+							<li style="list-style: none;">
+								<i class="context-1-1-2-1"></i>
+								<div class="context-1-1-2-2">
+									<p style="font-size: 15px;color: #000000;"><b>我的积分:0</b></p>
+									<p style="font-size: 10px;color: #000000;"><a href="">查看更多积分详情？猛戳></a></p>
+								</div>
+								
+							</li>
+						</ul>
+						<div class="context-1-1-3">
+							<div class="context-1-1-3-1">
+								<span ><b>累计完成任务</b></span>
+							</div>
+							<div class="context-1-1-3-2">
+								<p><b>请<a href="" style="text-decoration: none;">点击</a>查看</b></p>
+							</div>
+						</div>
+						<div class="context-1-1-4">
+							<div class="context-1-1-4-1">
+								<span ><b>可获得勋章</b></span>
+							</div>
+							<div class="context-1-1-4-2">
+								<table border="0" cellspacing="4" cellpadding="4">
+									
+									<tr>
+										<td><div class="t1"></div></td>
+										<td class="t1-1">性别认证</td>
+										<td><div class="t2"></div></td>
+										<td class="t2-2">审核完成</td>
+									</tr>
+									<tr>
+										<td><div class="t3"></div></td>
+										<td class="t3-3">校袋推手</td>
+										<td><div class="t4"></div></td>
+										<td class="t4-4">基础勋章</td>
+									</tr>
+									<tr>
+										<td><div class="t5"></div></td>
+										<td class="t5-5">首次任务</td>
+										
+									</tr>
+									
+								</table>
+							</div>
+						</div>
+						
+					</div>
+					
+					<div class="context-1-2">
+						<div class="container" style="  text-align:center; width:730px;">
+  							<div class="nav">
+						        <span class="left arrow" >&lt;</span>
+						        <span class="right arrow">&gt;</span>
+    						</div>
+    						<div id="cubeCarousel">
+        						<div id="cubeSpinner">
+						            <div class="face one">
+						                 <img class="img_slider active" src="img1/zhuang.jpg">
+						            </div>
+						            <div class="face two"> 
+						                <img class="img_slider" src="img1/zhuang1.jpg">
+						            </div>
+						            <div class="face three">
+						                <img class="img_slider" src="img1/zhuang2.png">
+						            </div>
+						            <div class="face four">
+						                <img class="img_slider" src="img1/zhuang3.jpg">
+						            </div>
+              
+        						</div>
+    						</div>
+						</div>
+						
+						
+						
+						
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="context-1-3">
+						<div class="context-1-3-1">
+							<a href="" class="context-1-3-1-1" style="text-decoration: none;;background: url(img1/renwu1.png) right center no-repeat;">
+								<strong class="context-1-3-1-2"><b>今日推介</b></strong>
+								<span class="context-1-3-1-3">每天都有新惊喜</span>
+							</a>
+						</div>
+						<div class="xuahuaxian"></div>
+						<div class="context-1-3-2">
+							<a href="" class="context-1-3-2-1" style="text-decoration: none;;background: url(img1/renwu2.png) right center no-repeat;">
+								<strong class="context-1-3-2-2"><b>最新任务</b></strong>
+								<span class="context-1-3-2-3">《夏有乔木雅望天堂》，在新浪微博发表影评</span>
+							</a>
+						</div>
+						<div class="xuahuaxian"></div>
+						<div class="context-1-3-3">
+							<a href="" class="context-1-3-3-1" style="text-decoration: none;;background: url(img1/renwu3.png) right center no-repeat;">
+								<strong class="context-1-3-3-2"><b>最热任务</b></strong>
+								<span class="context-1-3-3-3">【影评人】用文字说话，靠才华赚钱</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="afterbody">
+				<div class="afterbody-1">
+					<div class="afterbody-1-1">
+						<div class="afterbody-1-1-1"></div>
+						<div class="afterbody-1-1-2">
+							<ul>
+								<li>
+									<a href="" style="text-decoration: none;">
+										<div class="afterbody-1-1-2-1">
+											<div class="afterbody-1-1-2-1-img"><img src="img1/ab2.png"></div>
+											<div style="font-size: 14px;font-family: '微软雅黑';">全部任务</div>
+										</div>
+									</a>
+								</li>
+								
+								<li>
+									<a href="" style="text-decoration: none;">
+										<div class="afterbody-1-1-2-1">
+											<div class="afterbody-1-1-2-1-img"><img src="img1/ab3.png"></div>
+											<div style="font-size: 14px;font-family: '微软雅黑';">线上传播</div>
+										</div>
+									</a>
+								</li>
+								
+								<li>
+									<a href="" style="text-decoration: none;">
+										<div class="afterbody-1-1-2-1">
+											<div class="afterbody-1-1-2-1-img"><img src="img1/ab4.png"></div>
+											<div style="font-size: 14px;font-family: '微软雅黑';">调查收集</div>
+										</div>
+									</a>
+								</li>
+								
+								<li>
+									<a href="" style="text-decoration: none;">
+										<div class="afterbody-1-1-2-1">
+											<div class="afterbody-1-1-2-1-img"><img src="img1/ab5.png"></div>
+											<div style="font-size: 14px;font-family: '微软雅黑';">线下执行</div>
+										</div>
+									</a>
+								</li>
+								
+								<li>
+									<a href="" style="text-decoration: none;">
+										<div class="afterbody-1-1-2-1">
+											<div class="afterbody-1-1-2-1-img"><img src="img1/ab6.png"></div>
+											<div style="font-size: 14px;font-family: '微软雅黑';">其他任务</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="afterbody-1-2">
+						<img src="img1/ypr.png">
+					</div>
+					<div class="afterbody-1-3">
+						<div class="afterbody-1-3-1">
+							<em>任务秘籍</em>
+							<span></span>
+						</div>
+					</div>
+					<div class="afterbody-1-4">
+						<ul>
+							<li class="afterbody-1-4-1">
+								<div class="afterbody-1-4-1-1">
+									<div class="afterbody-1-4-1-1-1"><img src="img1/z1.png"></div>
+								</div>
+								<div class="afterbody-1-4-1-2">
+									<p class="afterbody-1-4-1-2-1">1 查看任务</p>
+									<p class="afterbody-1-4-1-2-2">了解任务要求、任务报酬等</p>
+								</div>
+							</li>
+							
+							<li class="afterbody-1-4-2">
+								<div class="afterbody-1-4-2-1">
+									<div class="afterbody-1-4-2-1-1"><img src="img1/z2.png"></div>
+								</div>
+								<div class="afterbody-1-4-2-2">
+									<p class="afterbody-1-4-2-2-1">2 领取任务</p>
+									<p class="afterbody-1-4-2-2-2">查看可以领取的任务</p>
+								</div>
+							</li>
+							
+							<li class="afterbody-1-4-3">
+								<div class="afterbody-1-4-3-1">
+									<div class="afterbody-1-4-3-1-1"><img src="img1/z3.png"></div>
+								</div>
+								<div class="afterbody-1-4-3-2">
+									<p class="afterbody-1-4-3-2-1">3 执行任务</p>
+									<p class="afterbody-1-4-3-2-2">按照任务步骤执行任务</p>
+								</div>
+							</li>
+							
+							<li class="afterbody-1-4-4">
+								<div class="afterbody-1-4-4-1">
+									<div class="afterbody-1-4-4-1-1"><img src="img1/z4.png"></div>
+								</div>
+								<div class="afterbody-1-4-4-2">
+									<p class="afterbody-1-4-4-2-1">4 提交任务</p>
+									<p class="afterbody-1-4-4-2-2">上传需要提交的内容(图片、文字)等</p>
+								</div>
+							</li>
+							
+							<li class="afterbody-1-4-5">
+								<div class="afterbody-1-4-5-1">
+									<div class="afterbody-1-4-5-1-1"><img src="img1/z5.png"></div>
+								</div>
+								<div class="afterbody-1-4-5-2">
+									<p class="afterbody-1-4-5-2-1">5 任务审核</p>
+									<p class="afterbody-1-4-5-2-2">承诺时间内完成您提交的任务审核</p>
+								</div>
+							</li>
+							
+							
+							<li class="afterbody-1-4-6">
+								<div class="afterbody-1-4-6-1">
+									<div class="afterbody-1-4-6-1-1"><img src="img1/z6.png"></div>
+								</div>
+								<div class="afterbody-1-4-6-2">
+									<p class="afterbody-1-4-6-2-1">6 奖励发放</p>
+									<p class="afterbody-1-4-6-2-2">审核完成后发放报酬</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div id="end">
+				<div class="end-1">
+					<div class="end-1-1">
+						<img src="img1/x.png">
+						<img src="img1/y.png">
+						<img src="img1/z.png">
+					</div>
+					<div class="end-1-2">
+						
+						<a href="">关于我们</a>
+						<a href="">首页</a>
+						<a href="">企业注册</a>
+						|客服热线  13621487901 | 客服QQ 505294505 | 客服邮箱 505294505@qq.com| 合作邮箱 505294505@qq.com
+        
+					</div>
+					<div class="end-1-3">
+						
+						
+           				 校袋帮  轻松任务 真交流 真友谊  | 京 ICP 备 15040963 号-2 ©Copyright 2015  呵呵科技有限公司  版权所有
+        
+						
+					</div>
+				</div>
+			</div>
+			
+			<script src="/schoolBag/js/jquery.min.js"></script>
+			<script src="/schoolBag/js/slider.js"></script>
+			<script src="/schoolBag/js/selImfoSize.js"></script>
+			<script>
+				$(document).ready(function(){
+   				 $('.context-bg').fadeSlider({
+     			 	itemPerPage: 1,
+     				timeout: 5000
+  				  })
+   				 
+   				
+ 				 })
+			</script>
+			<script src="/schoolBag/js/jquery.impulse.slider-0.3.js"></script>
+			<script>
+							 $(window).load(function(){
+				     			$('#cubeSpinner').impulseslider({
+					          height: 422,
+					          width: 540,
+					          depth: 270,
+					          perspective: 640000,
+					          pauseTime: 5000,
+					          transitionDuration: 1500,
+					          transitionEffect: "linear",
+					          autostart: true,
+					          rightSelector: ".right",
+					          leftSelector: ".left",
+					          directionRight: true,
+					          containerSelector: "#cubeCarousel",
+					          spinnerSelector: "#cubeSpinner"
+			      					});
+							    });
+			</script>
+			<script>
+				$(function(){
+					$.ajax({
+						type:'post',
+						url:'/schoolBag/isLoginServlet',
+						success:function(data,status,xhr){
+							if(data!=0){
+								$("#loginmsg").html("欢迎回来:"+data);	
+								$("#userId").text(data);
+								$("#loginmsg").attr("href","#");
+								$("#right1").html("<a href='#' id='logout'>注销</a>");
+							}else{
+								$("#loginmsg").html("登录");
+								$("#loginmsg").attr("href","/schoolBag/login.html");
+								$("#right1").html("<a href='/schoolBag/regist.html'>免费注册</a>");
+							}
+						}
+					})
+					$("#right1").on("click","#logout",function(){
+						$.ajax({
+							type:'post',
+							url:'/schoolBag/LogoutServlet',
+							success:function(data,status,xhr){
+								$("#loginmsg").html("登录");
+								$("#loginmsg").attr("href","/schoolBag/login.html");
+								$("#right1").html("<a href='/schoolBag/regist.html'>免费注册</a>");
+							}
+						});
+						return false;
+					});
+				})
+			</script>
+	</body>
+</html>

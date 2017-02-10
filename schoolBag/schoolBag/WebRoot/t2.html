@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" href="/schoolBag/css/WodGuan.css" />
+		<script type="text/javascript" src="/schoolBag/js/jquery-3.0.0.js" ></script>
+		<script type="text/javascript" src="/schoolBag/js/jquery-ui.js" ></script>
+		<script type="text/javascript" src="/schoolBag/laydate/laydate.js" ></script>
+		<link rel="stylesheet" href="/schoolBag/css/jquery-ui.min.css" />
+		<link rel="stylesheet" href="/schoolBag/css/jquery-ui.structure.css" />
+		<script type="text/javascript" src="/schoolBag/js/t2.js"></script>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.an{
+				display:block;
+				float:left;
+				border:1px solid #c0c0c0;
+				
+				padding:5px;
+				width:20px;
+				text-align:center;
+				
+				
+				
+			}
+			input{
+				outline:none;
+			}
+		</style>
+	</head>
+	<script>
+  $( function(){
+    $( ".menu").menu();
+   $("#accordion").accordion({
+   		collapsible:true,
+   		active:false
+   	});
+  });
+  
+	</script>
+	<body>
+		<div id="context">
+				<div style="margin-left:200px;margin-top:50px;text-align: center;"><h2>后台管理系统</h2></div>
+				<div class="inet">
+					<div style="margin-left:80px">
+					<form action="" method="post" style="float: left"><!--表单-->
+						<span>查询发布人:</sapn><input type="text" class="text1" id="TaskUserId"/>
+						<span>&nbsp;查询接收人:</sapn><input type="text" class="text1" id="TaskRec"/>
+						<input type="button" value="搜索" class="submit" id="sub"/>
+					</form>
+					
+					</div>
+				</div>
+						<div id="youbian">
+						
+						<div id="youbian-1" style="margin-top:20px">
+							
+							<!--
+                            	作者：896240130@qq.com
+                            	时间：2016-08-15
+                            	描述：管理页面
+                           -->		
+                        	
+                         <div id="fudong" style="float:left;background-color: #F5F5F5;">
+                         	<div id="fudong2"><input type="checkbox"/></div>
+                         	
+                         	<div id="fudong4">图片</div>
+                         	<div id="fudong9">标题</div>
+                         	<div id="fudong5">任务类型</div>
+                         	<div id="fudong6">开始时间</div>
+                         	<div id="fudong10">结束时间</div>
+                         	<div id="fudong7">状态</div>
+                         	<div id="fudong8">酬劳</div>
+                         	<div id="fudong11">发布人</div>
+                         	<div id="fudong12">接收人</div>
+                         </div>
+                     	<div style=" width:1010px;float: left;margin-left: -24px; padding-left: 10px;;">
+                     		<div class="mubiao"style="background-color: #EAF8FF">
+                     			<input type="checkbox" />
+                     			<img id="bianji" src="/schoolBag/img/shanchu.png" width="20px";height="20px"align="right"style="margin-top:10px;margin-right: 20px;"title="删除"/>
+                     			<img id="shanchu" src="/schoolBag/img/bianji.png" width="20px";height="20px"align="right"style="margin-top:10px;margin-right: 30px;"title="编辑"/>
+                     		</div>
+                     		<div class="muviao1">图片</div>
+                     		<div class="muviao2">标题</div>
+                     		<div class="muviao3">任务类型</div>
+                     		<div class="muviao4">开始时间</div>
+                     		<div class="muviao7">开始时间</div>
+                     		<div class="muviao5">状态</div>
+                     		<div class="muviao6">酬劳</div>
+                     		<div class="muviao8">发布人</div>
+                     		<div class="muviao9">接收人</div> 		
+                     	</div>	
+                     	  
+					</div>
+			    </div>
+			</div>
+			 <div  id="anniu" style="width:70%;height:30px;position:absolute;top:210px;left:290px;display:block;background-color: #F5F5F5;">
+                     	   		<a href="#" id="top" style="display:block;float:left;border:1px solid #c0c0c0;padding:5px;">上一页</a>
+                     	   		<a href="#" id="down"  style="display:block;float:right;border:1px solid #c0c0c0;padding:5px;">下一页</a>
+                     	   		
+                     	 		<a href="#" id="go" Style="display:block;float:right;border:1px solid #c0c0c0;padding:5px;margin-right:10px">Go</a>
+                     	   		<input type="text" id="yemian" style="display:block;float:right;border:1px solid #c0c0c0;padding:5px;height:18px"/>
+                     	   			
+                     	   </div>
+	</body>
+</html>

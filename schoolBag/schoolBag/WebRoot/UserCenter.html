@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" href="css/all.css" />
+<link rel="stylesheet" href="/schoolBag/css/userCenter.css"/>
+<link rel="stylesheet" href="/schoolBag/css/grzx.css"/>
+<script type="text/javascript" src="/schoolBag/js/jquery-3.0.0.js" ></script>
+<script type="text/javascript" src="/schoolBag/js/jquery-ui.js" ></script>
+<script type="text/javascript" src="/schoolBag/js/userCenter_function.js" ></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>任务首页</title>
+<script type="text/javascript">
+	$(function(){
+		$("#youbian").tabs();
+	   });
+</script>
+</head>
+	<body>
+		<div id="project">
+			<div id="head">
+				<span id="left1">&nbsp;&nbsp;&nbsp;<img src="img/c.png" ><a href="">大校帮首页</a></span>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<span id="left1"><a href="/schoolBag/login.html" id="loginmsg">你好，请登录</a></span><span class="shu">|</span>
+				<span id="right1"><a href="/schoolBag/regist.html">免费注册</a></span><span class="shu">|</span>
+				<span id="left1"><a href="/schoolBag/Feedback.html">投诉建议</a></span><span class="shu">|</span>
+				<span id="left1"><a href="">企业联络我们</a></span><span class="shu">|</span>
+				<span id="left1">关注校帮</span>
+			</div>
+			<div id="neck">
+				<span class="kuai3"><img src="img/fff.png"><b>校袋帮</b></span>
+				<span class="kuai2">大学生轻任务平台</span>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="/schoolBag/homepage.html" class="kuai">首页</a>
+				<a href="/schoolBag/center.jsp" class="kuai">任务中心</a>
+				<a href="/schoolBag/MyTask.html" class="kuai">我的任务</a>
+				<a href="/schoolBag/H_jsp/index.html" class="kuai">二手交易</a>
+			</div>
+			<div id="context">
+				<div id="zuobian">
+						
+				</div>
+		
+					<div class="dabiank">
+						<table border="0"  cellspacing="0" cellpadding="0" align="center">
+							<tr>
+								<td width="2000px" height="40px"style="background-color:#A4D8F4 " colspan="2" align="center">用户信息</td>
+						    </tr>
+						    		<tr>
+									<td colspan="2" width="230px" height="30px" style="text-align:left";>
+									<span>用户账号:</span>
+									<span id="userId" class="color">1234567890</span>
+									</td>
+								
+								</tr>
+							<tr>
+								<td  width="700px" height="160px" colspan="2">
+										<!--
+                                        	作者：896240130@qq.com
+                                        	时间：2016-08-17
+                                        	描述：一下div点击头像进行更换
+                                        -->
+            					<div class="yidong">
+									<div class="fileInputContainer">
+										  <img src="/schoolBag/img1/c1.png"/ width="120px" height="120px">
+										<input class="fileInput" id="touxiang" type="file" name="545">
+									  </div>
+								 </div>
+								</td>
+								</tr>
+						
+								<tr>
+									<td width="480px" height="60px" style="text-align:right">姓名:</td>
+									<td><input  disabled  type="text" id="userName" value="" class="nic"/></td>
+								</tr>
+								<tr>
+									<td  width="150px" height="60px" style="text-align:right">地址:</td>
+									<td><input  disabled  type="text" id="address" value="" class="diz" /></td>
+								</tr>
+								<tr>
+									<td  width="150px" height="60px" style="text-align:right">手机号码:</td>
+									<td><input disabled  type="text" id="phone" value="" class="sjh" /></td>
+								</tr>
+								<tr>
+									<td colspan="2" width="700px" height="60px">
+									
+										   <input type="button" id="" class="baoc" value="修改头像" />
+									    	<input type="button" id="" class="baoc2" value="保存修改" />
+									
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2" width="700px" height="40px"  style="background-color: #A4D8F4" >
+										
+									</td>
+								</tr>
+							</table>
+					</div>
+		
+		
+				<div style="clear: both;display: block"> </div>
+	         </div>
+			 <div id="end">
+				<div class="end-1">
+					<div class="end-1-1">
+						<img src="img/x.png">
+						<img src="img/y.png">
+						<img src="img/z.png">
+					</div>
+					<div class="end-1-2">
+						<a href="">关于我们</a>
+						<a href="">首页</a>
+						<a href="">企业注册</a>
+						|客服热线  13621487901 | 客服QQ 505294505 | 客服邮箱 505294505@qq.com| 合作邮箱 505294505@qq.com
+					</div>
+					<div class="end-1-3">
+           				 校袋帮  轻松任务 真交流 真友谊  | 京 ICP 备 15040963 号-2 ?Copyright 2015  呵呵科技有限公司  版权所有
+					</div>
+				</div>
+			</div>
+			</div>
+			
+			</script>
+			<script src="/schoolBag/js/UserCenter.js"></script>
+			<script>
+				$(function(){
+					$.ajax({
+						type:'post',
+						url:'/schoolBag/isLoginServlet',
+						success:function(data,status,xhr){
+							if(data!=0){
+								$("#loginmsg").html("欢迎回来:"+data);	
+								$("#userId").text(data);
+								$("#loginmsg").attr("href","#");
+								$("#right1").html("<a href='#' id='logout'>注销</a>");
+							}else{
+								$("#loginmsg").html("登录");
+								$("#loginmsg").attr("href","/schoolBag/login.html");
+								$("#right1").html("<a href='/schoolBag/regist.html'>免费注册</a>");
+							}
+						}
+					})
+					$("#right1").on("click","#logout",function(){
+						$.ajax({
+							type:'post',
+							url:'/schoolBag/LogoutServlet',
+							success:function(data,status,xhr){
+								$("#loginmsg").html("登录");
+								$("#loginmsg").attr("href","/schoolBag/login.html");
+								$("#right1").html("<a href='/schoolBag/regist.html'>免费注册</a>");
+							}
+						});
+						return false;
+					});
+				})
+			</script>
+	</body>
+</html>
